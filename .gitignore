@@ -1,0 +1,12 @@
+/devpost/learner-profile.md
+.env
+.env.*
+!.env.example
+
+# Locally installed curriculum skills
+/.agents/skills/
+/.claude/skills/
+/agent/skills/
+
+# macOS metadata
+.DS_Store
