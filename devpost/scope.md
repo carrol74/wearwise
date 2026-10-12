@@ -75,4 +75,4 @@ No proposed requirement has been agreed for deferral. If a concrete limitation a
 
 Based on the rules supplied by the learner: provide a public repository containing source, necessary assets, setup instructions, an open-source license, and scope.md, prd.md, and spec.md; provide a public demonstration video shorter than three minutes showing the running project; create the project during the submission period, disclose incorporated pre-existing work, and respect permissions for code, images, and other resources.
 
-All repository files must be in English. Conversation may use multiple languages. Submission materials must be in English or include English translations. The full submission-period dates have not been verified.
+Git-tracked project files must be in English. Ignored local reading materials may use Chinese. Conversation may use multiple languages. Submission materials must be in English or include English translations. The full submission-period dates have not been verified.
