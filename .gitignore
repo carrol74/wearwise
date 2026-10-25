@@ -1,8 +1,19 @@
+# Personal learning, planning, and verification records
 /devpost/learner-profile.md
 /devpost/decisions.md
+/devpost/manual-verification.md
+/devpost/verification.md
+/devpost/checklist.md
+/devpost/app-map.html
+
+# Local environment configuration
 .env
 .env.*
 !.env.example
+/.tmp/
+
+# Local garment test images
+/test-assets/garments/
 
 # Locally installed curriculum skills
 /.agents/skills/
@@ -16,5 +27,22 @@
 .build/
 .swiftpm/
 DerivedData/
+build/
 xcuserdata/
 *.xcuserstate
+*.xcresult/
+*.xcarchive/
+*.dSYM/
+*.ipa
+
+# Local design previews, indexes, and review evidence
+/design/
+/.codegraph/
+/devpost/test-cases.md
+/scripts/review-*.cjs
+/scripts/garment-review-looks.json
+
+# Superseded local generator configuration and unused source atlases
+/ios/project.yml
+/ios/Wearwise/Assets.xcassets/CharacterAtlas-eyes.imageset/
+/ios/Wearwise/Assets.xcassets/CharacterAtlas-torsos.imageset/
