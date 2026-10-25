@@ -234,7 +234,7 @@ Measure larger phone photos separately. Define and report any required downsampl
 - Record outcomes per requirement and input variant, with the current build/device/OS, screenshots or logs, defects, and retest results. Include Photos/Files/Paste/drop, actual permission outcomes, and the configured target formats.
 - Verify all required routes with large text, keyboard-open forms, light/dark appearance, reduced motion, and physical-device VoiceOver. Save/Cancel, errors, management actions, and dismissal must remain reachable.
 - The creator completes the same core tasks without developer navigation assistance. Record completion, confusing controls, and resulting changes. Retest any issue that blocks a core task, hides state, or risks saved data before release acceptance.
-- Complete performance cases alongside existing functionality. Component-test counts and browser snapshots cannot close an unexecuted device case. Current open checks remain listed in README.md.
+- Complete performance cases alongside existing functionality. Component-test counts and browser snapshots cannot close an unexecuted device case.
 
 ## States and Boundaries
 

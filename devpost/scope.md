@@ -66,7 +66,7 @@ Scope defines the product boundary. The PRD defines behavior, exceptions, and ac
 
 ## Completion Boundary
 
-Core product modules and the current character artwork are implemented with focused verification. The new image-quality matrix and capacity/performance targets remain unverified. Connected physical-device acceptance, remaining gesture checks, VoiceOver, and user feedback remain open. A requirement or a passing component test does not establish completed release acceptance. See README.md for setup, testing, and the remaining release checks.
+Core product modules and the current character artwork are implemented with focused verification. The new image-quality matrix and capacity/performance targets remain unverified. Connected physical-device acceptance, remaining gesture checks, VoiceOver, and user feedback remain open. A requirement or a passing component test does not establish completed release acceptance.
 
 Manual cutout repair remains an open product decision; the current supported correction path is review, rejection, retry, or another image.
 

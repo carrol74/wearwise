@@ -13,50 +13,6 @@ A native iOS wardrobe app for organizing clothes, composing outfits, recording w
 
 Records and images stay in the app's local storage. No account, server, or API key is required. Light appearance uses white and navy; dark appearance uses black surfaces. Garment images retain white display backgrounds.
 
-## Run the App
-
-Requirements: macOS, Xcode with Swift 6 and an iOS SDK, and an iPhone or simulator. The deployment target is iOS 17. Development verification used Xcode 27.0 and the iOS 18.4 simulator runtime.
-
-1. Open `ios/Wearwise.xcodeproj` in Xcode.
-2. Select the **Wearwise** scheme and an installed iPhone simulator.
-3. Run the app. For a physical iPhone, select your own development team under Signing & Capabilities and choose the connected device.
-4. Add your own permitted standalone garment photos through Photos, Files, or image paste.
-
-Background extraction requires physical-device verification. The tested iOS 18.4 simulator cannot execute one of Vision's required foreground-extraction stages. Photo selection, storage, composition, and the other interface flows can be exercised on the simulator.
-
-To build without configuring signing:
-
-```sh
-xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise \
-  -destination 'generic/platform=iOS Simulator' \
-  -derivedDataPath .build/ios CODE_SIGNING_ALLOWED=NO build
-```
-
-## Tests
-
-Run the independent calculation and composition tests:
-
-```sh
-swift test --package-path packages/WearwiseCore
-```
-
-Run native tests on a disposable simulator. UI tests create saved records and exercise system photo permissions. List destinations with `xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise -showdestinations`, then replace `SIMULATOR_UUID` below:
-
-```sh
-xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise \
-  -destination 'platform=iOS Simulator,id=SIMULATOR_UUID' \
-  -skip-testing:WearwiseTests/ImageImportServiceTests/testRealGarmentProducesCutoutAndColors \
-  -parallel-testing-enabled NO CODE_SIGNING_ALLOWED=NO test
-```
-
-The excluded foreground-extraction test belongs on a physical iPhone. Optional local-material tests skip when no external materials have been staged. Use `python3 scripts/test-garment-materials.py --materials /absolute/path/to/images` to exercise those cases with your own files. `scripts/extract-garment-materials.swift` supports separate macOS Vision review, and `scripts/generate-app-icon.swift` reproduces the application icon.
-
-Automated checks cover calculations, composition transforms, persistence, historical image retention, and native interface flows.
-
-## Remaining Acceptance Checks
-
-Full physical-device accessibility, difficult-image quality, minimum-OS acceptance, and capacity/performance measurements remain open release checks.
-
 ## Project Layout
 
 | Path | Purpose |

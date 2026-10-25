@@ -66,7 +66,7 @@ flowchart TD
 | Project | Xcode project and shared scheme | Build the supplied ios/Wearwise.xcodeproj directly |
 | Verification | Swift Testing; Xcode tests | Real calculations, real storage, UI actions, and image operations; [documentation](https://developer.apple.com/documentation/testing) |
 
-Minimum target: iOS 17. Full Xcode 27.0 (Build 27A266a), Swift 6.4, and an iOS 18.4 simulator are installed. Keep the actual tested tool/device versions in README.md.
+Minimum target: iOS 17. Full Xcode 27.0 (Build 27A266a), Swift 6.4, and an iOS 18.4 simulator are installed. Record actual tool and device versions with verification results.
 
 No cloud API, external inference service, or account system has been selected. Personalized stickers use a local appearance-option editor.
 
@@ -82,7 +82,7 @@ open ios/Wearwise.xcodeproj
 
 Select the Wearwise scheme and an installed iPhone simulator, then run in Xcode. For an actual iPhone, connect the device and select the user's signing team in Xcode. Apple Account credentials stay in Xcode.
 
-The independent calculation package uses the following standard test command. Observed test results are recorded in README.md; use DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer if the active global developer directory points to Command Line Tools.
+The independent calculation package uses the following standard test command. Use DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer if the active global developer directory points to Command Line Tools.
 
 ```sh
 swift test --package-path packages/WearwiseCore
@@ -222,7 +222,7 @@ Use the PRD workload and exact timing targets as the shared benchmark contract. 
 
 ## File Structure
 
-These paths describe the current source responsibilities. [README.md](../README.md) records observed suite results and [remaining acceptance checks](../README.md#remaining-acceptance-checks).
+These paths describe the current source responsibilities.
 
 | Path | Responsibility |
 | --- | --- |
@@ -277,7 +277,7 @@ Use real Decimal and Calendar calculations in WearwiseCore tests. Verify unknown
 
 Use real persistent records and image files to test save/reopen, updates, retirement references, diary snapshots, and repeated worn actions. Do not mock storage or image processing. UI tests must exercise real controls and persisted results. Image analysis must use actual permitted input images and inspect actual cutouts and labels.
 
-Keep failed operations observable in both the view and persistent data. Verify restored values and asset references after an actual save failure. For failed deletions, verify no pending insert/delete remains, reopen the same database, and retry against a writable store. A committed deletion followed by file-cleanup failure must report that the record was deleted and return to a usable collection. [README.md](../README.md) records observed suite results and [remaining acceptance checks](../README.md#remaining-acceptance-checks).
+Keep failed operations observable in both the view and persistent data. Verify restored values and asset references after an actual save failure. For failed deletions, verify no pending insert/delete remains, reopen the same database, and retry against a writable store. A committed deletion followed by file-cleanup failure must report that the record was deleted and return to a usable collection.
 
 Run a full iPhone journey covering wardrobe import, the separate Shopping collection and explicit transfer, flatlay save/reopen, personalized sticker, diary snapshot/export, wear metrics, purchase projections, and brand save/reopen. Record results against PRD criteria. Mark only observed passing behavior complete.
 
