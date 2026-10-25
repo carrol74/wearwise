@@ -1,0 +1,7645 @@
+{
+  "sprites": {
+    "head/soft/oval": {
+      "atlas": "heads",
+      "rect": [
+        23,
+        22,
+        242,
+        231
+      ],
+      "luminance": 0.7182811764705881,
+      "neck": [
+        0.49793388429752067,
+        1
+      ]
+    },
+    "head/soft/round": {
+      "atlas": "heads",
+      "rect": [
+        275,
+        27,
+        246,
+        226
+      ],
+      "luminance": 0.718147450980392,
+      "neck": [
+        0.4959349593495935,
+        1
+      ]
+    },
+    "head/soft/angular": {
+      "atlas": "heads",
+      "rect": [
+        535,
+        24,
+        237,
+        223
+      ],
+      "luminance": 0.7195474509803922,
+      "neck": [
+        0.4936708860759494,
+        1
+      ]
+    },
+    "head/soft/heart": {
+      "atlas": "heads",
+      "rect": [
+        786,
+        24,
+        233,
+        225
+      ],
+      "luminance": 0.7226352941176469,
+      "neck": [
+        0.4957081545064378,
+        1
+      ]
+    },
+    "head/soft/diamond": {
+      "atlas": "heads",
+      "rect": [
+        1038,
+        24,
+        233,
+        225
+      ],
+      "luminance": 0.722352156862745,
+      "neck": [
+        0.49356223175965663,
+        1
+      ]
+    },
+    "head/soft/long": {
+      "atlas": "heads",
+      "rect": [
+        1283,
+        13,
+        231,
+        244
+      ],
+      "luminance": 0.720952156862745,
+      "neck": [
+        0.49783549783549785,
+        1
+      ]
+    },
+    "head/soft/rectangular": {
+      "atlas": "heads",
+      "rect": [
+        1531,
+        20,
+        240,
+        229
+      ],
+      "luminance": 0.718430588235294,
+      "neck": [
+        0.49375,
+        1
+      ]
+    },
+    "head/soft/triangle": {
+      "atlas": "heads",
+      "rect": [
+        1786,
+        24,
+        241,
+        225
+      ],
+      "luminance": 0.7150596078431373,
+      "neck": [
+        0.495850622406639,
+        1
+      ]
+    },
+    "head/balanced/oval": {
+      "atlas": "heads",
+      "rect": [
+        36,
+        270,
+        216,
+        224
+      ],
+      "luminance": 0.7153427450980392,
+      "neck": [
+        0.5,
+        1
+      ]
+    },
+    "head/balanced/round": {
+      "atlas": "heads",
+      "rect": [
+        286,
+        275,
+        225,
+        219
+      ],
+      "luminance": 0.717313725490196,
+      "neck": [
+        0.49777777777777776,
+        1
+      ]
+    },
+    "head/balanced/angular": {
+      "atlas": "heads",
+      "rect": [
+        542,
+        273,
+        222,
+        221
+      ],
+      "luminance": 0.713958431372549,
+      "neck": [
+        0.49774774774774777,
+        1
+      ]
+    },
+    "head/balanced/heart": {
+      "atlas": "heads",
+      "rect": [
+        795,
+        272,
+        215,
+        222
+      ],
+      "luminance": 0.7178643137254902,
+      "neck": [
+        0.49767441860465117,
+        1
+      ]
+    },
+    "head/balanced/diamond": {
+      "atlas": "heads",
+      "rect": [
+        1044,
+        273,
+        218,
+        221
+      ],
+      "luminance": 0.7178643137254902,
+      "neck": [
+        0.5,
+        1
+      ]
+    },
+    "head/balanced/long": {
+      "atlas": "heads",
+      "rect": [
+        1292,
+        265,
+        213,
+        234
+      ],
+      "luminance": 0.7164596078431372,
+      "neck": [
+        0.4953051643192488,
+        1
+      ]
+    },
+    "head/balanced/rectangular": {
+      "atlas": "heads",
+      "rect": [
+        1538,
+        272,
+        225,
+        222
+      ],
+      "luminance": 0.7145090196078431,
+      "neck": [
+        0.5,
+        1
+      ]
+    },
+    "head/balanced/triangle": {
+      "atlas": "heads",
+      "rect": [
+        1798,
+        274,
+        219,
+        220
+      ],
+      "luminance": 0.7147764705882353,
+      "neck": [
+        0.4931506849315068,
+        1
+      ]
+    },
+    "head/defined/oval": {
+      "atlas": "heads",
+      "rect": [
+        24,
+        505,
+        241,
+        236
+      ],
+      "luminance": 0.7086164705882353,
+      "neck": [
+        0.4979253112033195,
+        1
+      ]
+    },
+    "head/defined/round": {
+      "atlas": "heads",
+      "rect": [
+        277,
+        507,
+        243,
+        226
+      ],
+      "luminance": 0.7083333333333334,
+      "neck": [
+        0.49794238683127573,
+        1
+      ]
+    },
+    "head/defined/angular": {
+      "atlas": "heads",
+      "rect": [
+        534,
+        507,
+        238,
+        221
+      ],
+      "luminance": 0.7072164705882352,
+      "neck": [
+        0.4957983193277311,
+        1
+      ]
+    },
+    "head/defined/heart": {
+      "atlas": "heads",
+      "rect": [
+        788,
+        505,
+        229,
+        231
+      ],
+      "luminance": 0.7105874509803922,
+      "neck": [
+        0.49563318777292575,
+        1
+      ]
+    },
+    "head/defined/diamond": {
+      "atlas": "heads",
+      "rect": [
+        1039,
+        505,
+        231,
+        231
+      ],
+      "luminance": 0.7114211764705882,
+      "neck": [
+        0.49567099567099565,
+        1
+      ]
+    },
+    "head/defined/long": {
+      "atlas": "heads",
+      "rect": [
+        1283,
+        505,
+        231,
+        236
+      ],
+      "luminance": 0.7083333333333334,
+      "neck": [
+        0.49783549783549785,
+        1
+      ]
+    },
+    "head/defined/rectangular": {
+      "atlas": "heads",
+      "rect": [
+        1532,
+        506,
+        238,
+        227
+      ],
+      "luminance": 0.7077827450980392,
+      "neck": [
+        0.49789915966386555,
+        1
+      ]
+    },
+    "head/defined/triangle": {
+      "atlas": "heads",
+      "rect": [
+        1784,
+        506,
+        245,
+        229
+      ],
+      "luminance": 0.7069333333333333,
+      "neck": [
+        0.4959183673469388,
+        1
+      ]
+    },
+    "hair/cropped": {
+      "atlas": "hair",
+      "rect": [
+        30,
+        62,
+        159,
+        120
+      ],
+      "luminance": 0.19248,
+      "placement": [
+        -17.80462578616352,
+        6,
+        36.5282,
+        27
+      ],
+      "faceOpening": [
+        0.48742138364779874,
+        0.95
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/pixie": {
+      "atlas": "hair-fitted",
+      "rect": [
+        31,
+        166,
+        513,
+        417
+      ],
+      "luminance": 0.18325254901960783,
+      "placement": [
+        -18,
+        6,
+        36,
+        28
+      ],
+      "faceOpening": [
+        0.5,
+        0.85
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/sidePart": {
+      "atlas": "hair",
+      "rect": [
+        432,
+        59,
+        164,
+        124
+      ],
+      "luminance": 0.183253,
+      "placement": [
+        -19.449576219512196,
+        7,
+        38.6634,
+        28
+      ],
+      "faceOpening": [
+        0.5030487804878049,
+        0.8951612903225806
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/quiff": {
+      "atlas": "hair",
+      "rect": [
+        638,
+        52,
+        169,
+        131
+      ],
+      "luminance": 0.190813,
+      "placement": [
+        -20.931450887573963,
+        2,
+        40.1979,
+        32
+      ],
+      "faceOpening": [
+        0.5207100591715976,
+        0.9236641221374046
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/curls": {
+      "atlas": "hair",
+      "rect": [
+        840,
+        53,
+        166,
+        130
+      ],
+      "luminance": 0.172888,
+      "placement": [
+        -19.92,
+        5,
+        39.84,
+        30
+      ],
+      "faceOpening": [
+        0.5,
+        0.8692307692307693
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/afro": {
+      "atlas": "hair",
+      "rect": [
+        14,
+        259,
+        198,
+        169
+      ],
+      "luminance": 0.172054,
+      "placement": [
+        -24.62942929292929,
+        -0.8,
+        49.7615,
+        47.32
+      ],
+      "faceOpening": [
+        0.494949494949495,
+        0.7337278106508875
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/fade": {
+      "atlas": "hair-fitted",
+      "rect": [
+        593,
+        186,
+        489,
+        377
+      ],
+      "luminance": 0.13624549019607843,
+      "placement": [
+        -16.5,
+        9,
+        33,
+        25
+      ],
+      "faceOpening": [
+        0.5,
+        0.85
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/buzzCut": {
+      "atlas": "hair-fitted",
+      "rect": [
+        1141,
+        233,
+        464,
+        328
+      ],
+      "luminance": 0.1617098039215686,
+      "placement": [
+        -16,
+        10,
+        32,
+        24
+      ],
+      "faceOpening": [
+        0.5,
+        0.85
+      ],
+      "layers": {
+        "rear": "none",
+        "nape": 0.64,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/shaved": {
+      "atlas": "hair-fitted",
+      "rect": [
+        1672,
+        234,
+        456,
+        318
+      ],
+      "luminance": 0.45040235294117653,
+      "placement": [
+        -16,
+        10,
+        32,
+        24
+      ],
+      "faceOpening": [
+        0.5,
+        0.85
+      ],
+      "densityReference": 0.65,
+      "densityOpacity": 0.65,
+      "layers": {
+        "rear": "none",
+        "nape": 0.64,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/bob": {
+      "atlas": "hair",
+      "rect": [
+        17,
+        497,
+        185,
+        163
+      ],
+      "luminance": 0.192763,
+      "placement": [
+        -22.87016918918919,
+        6.48,
+        46.4943,
+        45.64
+      ],
+      "faceOpening": [
+        0.4918918918918919,
+        0.6012269938650306
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/bluntBob": {
+      "atlas": "hair",
+      "rect": [
+        221,
+        495,
+        178,
+        167
+      ],
+      "luminance": 0.189958,
+      "placement": [
+        -24.4429,
+        -1.92,
+        48.8858,
+        46.76
+      ],
+      "faceOpening": [
+        0.5,
+        0.7664670658682635
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/lob": {
+      "atlas": "hair",
+      "rect": [
+        413,
+        483,
+        195,
+        204
+      ],
+      "luminance": 0.184369,
+      "placement": [
+        -26.769346153846154,
+        5.92,
+        50.435,
+        57.12
+      ],
+      "faceOpening": [
+        0.5307692307692308,
+        0.49019607843137253
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/shag": {
+      "atlas": "hair",
+      "rect": [
+        622,
+        484,
+        187,
+        203
+      ],
+      "luminance": 0.187725,
+      "placement": [
+        -26.502667112299463,
+        -0.57,
+        51.3575,
+        56.84
+      ],
+      "faceOpening": [
+        0.516042780748663,
+        0.6551724137931034
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "rearInset": 0.1
+      }
+    },
+    "hair/curlyBob": {
+      "atlas": "hair",
+      "rect": [
+        815,
+        500,
+        206,
+        171
+      ],
+      "luminance": 0.184086,
+      "placement": [
+        -28.38907694174757,
+        6.48,
+        55.4327,
+        47.88
+      ],
+      "faceOpening": [
+        0.5121359223300971,
+        0.5730994152046783
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/long": {
+      "atlas": "hair",
+      "rect": [
+        11,
+        714,
+        189,
+        269
+      ],
+      "luminance": 0.189125,
+      "placement": [
+        -19.877558201058203,
+        7.04,
+        38.7305,
+        75.32
+      ],
+      "faceOpening": [
+        0.5132275132275133,
+        0.35687732342007433
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/wavy": {
+      "atlas": "hair",
+      "rect": [
+        203,
+        714,
+        198,
+        271
+      ],
+      "luminance": 0.181282,
+      "placement": [
+        -28.860000000000003,
+        8.16,
+        54.945,
+        75.88
+      ],
+      "faceOpening": [
+        0.5252525252525253,
+        0.33948339483394835
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/curlyLong": {
+      "atlas": "hair",
+      "rect": [
+        405,
+        713,
+        231,
+        284
+      ],
+      "luminance": 0.171771,
+      "placement": [
+        -32.59149783549783,
+        5.92,
+        65.4664,
+        79.52
+      ],
+      "faceOpening": [
+        0.49783549783549785,
+        0.352112676056338
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/straightFringe": {
+      "atlas": "hair",
+      "rect": [
+        643,
+        720,
+        184,
+        273
+      ],
+      "luminance": 0.185203,
+      "placement": [
+        -21.0,
+        4,
+        42,
+        76.44
+      ],
+      "faceOpening": [
+        0.5,
+        0.4652014652014652
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "faceContour": true
+      }
+    },
+    "hair/ponytail": {
+      "atlas": "hair",
+      "rect": [
+        841,
+        716,
+        176,
+        255
+      ],
+      "luminance": 0.180998,
+      "placement": [
+        -17.714228693181816,
+        0.32,
+        48.3365,
+        71.4
+      ],
+      "faceOpening": [
+        0.3664772727272727,
+        0.47058823529411764
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 1.2,
+        "tailSide": "right",
+        "templeEnd": 0.64
+      }
+    },
+    "hair/lowPonytail": {
+      "atlas": "hair",
+      "rect": [
+        29,
+        1026,
+        169,
+        251
+      ],
+      "luminance": 0.184369,
+      "placement": [
+        -18.49281923076923,
+        7.88,
+        43.7103,
+        70.28
+      ],
+      "faceOpening": [
+        0.4230769230769231,
+        0.3705179282868526
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 1.2,
+        "tailSide": "right",
+        "templeEnd": 0.64
+      }
+    },
+    "hair/bun": {
+      "atlas": "hair",
+      "rect": [
+        237,
+        1016,
+        144,
+        207
+      ],
+      "luminance": 0.180165,
+      "placement": [
+        -18.85901875,
+        -6.96,
+        37.9818,
+        57.96
+      ],
+      "faceOpening": [
+        0.4965277777777778,
+        0.7053140096618358
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/braids": {
+      "atlas": "hair",
+      "rect": [
+        440,
+        1023,
+        148,
+        269
+      ],
+      "luminance": 0.176809,
+      "placement": [
+        -18.9554,
+        8.16,
+        37.9108,
+        75.32
+      ],
+      "faceOpening": [
+        0.5,
+        0.3420074349442379
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/locs": {
+      "atlas": "hair",
+      "rect": [
+        624,
+        1017,
+        199,
+        281
+      ],
+      "luminance": 0.175142,
+      "placement": [
+        -37.192190954773864,
+        4.52,
+        68.8488,
+        78.68
+      ],
+      "faceOpening": [
+        0.5402010050251256,
+        0.3736654804270463
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "rearInset": 0.18,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/sideBraid": {
+      "atlas": "hair",
+      "rect": [
+        845,
+        1022,
+        156,
+        272
+      ],
+      "luminance": 0.180448,
+      "placement": [
+        -22.477500000000003,
+        5.08,
+        43.29,
+        76.16
+      ],
+      "faceOpening": [
+        0.5192307692307693,
+        0.3786764705882353
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "hair/twinPuffs": {
+      "atlas": "hair",
+      "rect": [
+        7,
+        1315,
+        215,
+        166
+      ],
+      "luminance": 0.170104,
+      "placement": [
+        -25.5401888372093,
+        -1.08,
+        52.5468,
+        46.48
+      ],
+      "faceOpening": [
+        0.48604651162790696,
+        0.7530120481927711
+      ],
+      "layers": {
+        "rear": "scalp",
+        "nape": 0.9,
+        "templeEnd": 0.64
+      }
+    },
+    "eyes/round": {
+      "atlas": "eyes-refined",
+      "rect": [
+        49,
+        181,
+        308,
+        77
+      ],
+      "luminance": 0.25
+    },
+    "eyes/almond": {
+      "atlas": "eyes-refined",
+      "rect": [
+        427,
+        178,
+        320,
+        80
+      ],
+      "luminance": 0.25
+    },
+    "eyes/sleepy": {
+      "atlas": "eyes-refined",
+      "rect": [
+        808,
+        196,
+        297,
+        58
+      ],
+      "luminance": 0.25
+    },
+    "eyes/wide": {
+      "atlas": "eyes-refined",
+      "rect": [
+        1181,
+        183,
+        309,
+        74
+      ],
+      "luminance": 0.25
+    },
+    "eyes/monolid": {
+      "atlas": "eyes-refined",
+      "rect": [
+        42,
+        486,
+        323,
+        56
+      ],
+      "luminance": 0.25
+    },
+    "eyes/hooded": {
+      "atlas": "eyes-hooded",
+      "rect": [
+        220,
+        194,
+        1732,
+        333
+      ],
+      "luminance": 0.25
+    },
+    "eyes/upturned": {
+      "atlas": "eyes-refined",
+      "rect": [
+        799,
+        463,
+        323,
+        79
+      ],
+      "luminance": 0.25
+    },
+    "eyes/downturned": {
+      "atlas": "eyes-refined",
+      "rect": [
+        1179,
+        476,
+        320,
+        74
+      ],
+      "luminance": 0.25
+    },
+    "brows/soft": {
+      "atlas": "brows",
+      "rect": [
+        93,
+        234,
+        589,
+        70
+      ],
+      "luminance": 0.233929
+    },
+    "brows/straight": {
+      "atlas": "brows",
+      "rect": [
+        844,
+        234,
+        601,
+        57
+      ],
+      "luminance": 0.236184
+    },
+    "brows/arched": {
+      "atlas": "brows",
+      "rect": [
+        89,
+        682,
+        590,
+        80
+      ],
+      "luminance": 0.236734
+    },
+    "brows/bushy": {
+      "atlas": "brows",
+      "rect": [
+        835,
+        683,
+        621,
+        86
+      ],
+      "luminance": 0.236734
+    },
+    "nose/soft": {
+      "atlas": "noses",
+      "rect": [
+        104,
+        269,
+        204,
+        128
+      ],
+      "luminance": 0.730463
+    },
+    "nose/defined": {
+      "atlas": "noses",
+      "rect": [
+        474,
+        183,
+        225,
+        228
+      ],
+      "luminance": 0.726809
+    },
+    "nose/broad": {
+      "atlas": "noses",
+      "rect": [
+        824,
+        269,
+        271,
+        138
+      ],
+      "luminance": 0.729896
+    },
+    "nose/button": {
+      "atlas": "noses",
+      "rect": [
+        1272,
+        281,
+        155,
+        100
+      ],
+      "luminance": 0.729613
+    },
+    "nose/straight": {
+      "atlas": "noses",
+      "rect": [
+        120,
+        618,
+        173,
+        242
+      ],
+      "luminance": 0.728209
+    },
+    "nose/aquiline": {
+      "atlas": "noses",
+      "rect": [
+        502,
+        616,
+        172,
+        244
+      ],
+      "luminance": 0.724004
+    },
+    "nose/rounded": {
+      "atlas": "noses",
+      "rect": [
+        844,
+        703,
+        228,
+        146
+      ],
+      "luminance": 0.724004
+    },
+    "nose/wideBridge": {
+      "atlas": "noses",
+      "rect": [
+        1200,
+        702,
+        289,
+        148
+      ],
+      "luminance": 0.724838
+    },
+    "mouth/neutral": {
+      "atlas": "mouths",
+      "rect": [
+        74,
+        241,
+        289,
+        75
+      ],
+      "luminance": 0.501835
+    },
+    "mouth/smile": {
+      "atlas": "mouths",
+      "rect": [
+        503,
+        215,
+        326,
+        108
+      ],
+      "luminance": 0.479973
+    },
+    "mouth/grin": {
+      "atlas": "mouths",
+      "rect": [
+        948,
+        211,
+        324,
+        129
+      ],
+      "luminance": 0.847335
+    },
+    "mouth/openSmile": {
+      "atlas": "mouths",
+      "rect": [
+        1407,
+        196,
+        293,
+        153
+      ],
+      "luminance": 0.479407
+    },
+    "mouth/pout": {
+      "atlas": "mouths",
+      "rect": [
+        90,
+        628,
+        264,
+        98
+      ],
+      "luminance": 0.492875
+    },
+    "mouth/frown": {
+      "atlas": "mouths",
+      "rect": [
+        533,
+        630,
+        267,
+        77
+      ],
+      "luminance": 0.489787
+    },
+    "mouth/smirk": {
+      "atlas": "mouths",
+      "rect": [
+        965,
+        610,
+        291,
+        118
+      ],
+      "luminance": 0.494826
+    },
+    "mouth/open": {
+      "atlas": "mouths",
+      "rect": [
+        1482,
+        609,
+        141,
+        139
+      ],
+      "luminance": 0.461065
+    },
+    "beard/stubble": {
+      "atlas": "beards",
+      "rect": [
+        502,
+        226,
+        330,
+        175
+      ],
+      "luminance": 0.18692
+    },
+    "beard/moustache": {
+      "atlas": "beards",
+      "rect": [
+        973,
+        274,
+        273,
+        64
+      ],
+      "luminance": 0.206798
+    },
+    "beard/handlebar": {
+      "atlas": "beards",
+      "rect": [
+        1385,
+        266,
+        344,
+        86
+      ],
+      "luminance": 0.203447
+    },
+    "beard/goatee": {
+      "atlas": "beards",
+      "rect": [
+        99,
+        618,
+        250,
+        151
+      ],
+      "luminance": 0.200092,
+      "mouth": [
+        0.5,
+        0.38741721854304634
+      ]
+    },
+    "beard/shortBeard": {
+      "atlas": "beards",
+      "rect": [
+        498,
+        551,
+        337,
+        219
+      ],
+      "luminance": 0.20373,
+      "mouth": [
+        0.49851632047477745,
+        0.5707762557077626
+      ],
+      "mouthOpening": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          120,
+          124
+        ],
+        [
+          113,
+          128
+        ],
+        [
+          111,
+          128
+        ],
+        [
+          110,
+          132
+        ],
+        [
+          108,
+          135
+        ],
+        [
+          108,
+          135
+        ],
+        [
+          107,
+          137
+        ],
+        [
+          106,
+          139
+        ],
+        [
+          106,
+          141
+        ],
+        [
+          105,
+          142
+        ],
+        [
+          105,
+          141
+        ],
+        [
+          105,
+          143
+        ],
+        [
+          104,
+          143
+        ],
+        [
+          104,
+          144
+        ],
+        [
+          104,
+          144
+        ],
+        [
+          104,
+          145
+        ],
+        [
+          104,
+          147
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          147
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          149
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          153
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          104,
+          151
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          104,
+          149
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          147
+        ],
+        [
+          103,
+          147
+        ],
+        [
+          103,
+          147
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          102,
+          146
+        ],
+        [
+          102,
+          146
+        ],
+        [
+          102,
+          145
+        ],
+        [
+          101,
+          145
+        ],
+        [
+          101,
+          145
+        ],
+        [
+          100,
+          145
+        ],
+        [
+          100,
+          145
+        ],
+        [
+          99,
+          145
+        ],
+        [
+          98,
+          145
+        ],
+        [
+          98,
+          145
+        ],
+        [
+          97,
+          145
+        ],
+        [
+          96,
+          145
+        ],
+        [
+          95,
+          145
+        ],
+        [
+          94,
+          145
+        ],
+        [
+          95,
+          145
+        ],
+        [
+          96,
+          145
+        ],
+        [
+          96,
+          145
+        ],
+        [
+          97,
+          145
+        ],
+        [
+          98,
+          145
+        ],
+        [
+          99,
+          145
+        ],
+        [
+          99,
+          145
+        ],
+        [
+          100,
+          145
+        ],
+        [
+          100,
+          145
+        ],
+        [
+          101,
+          145
+        ],
+        [
+          101,
+          145
+        ],
+        [
+          102,
+          145
+        ],
+        [
+          102,
+          145
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          103,
+          146
+        ],
+        [
+          104,
+          147
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          149
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          105,
+          152
+        ],
+        [
+          105,
+          153
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          157
+        ],
+        [
+          105,
+          157
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          156
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          155
+        ],
+        [
+          105,
+          153
+        ],
+        [
+          105,
+          153
+        ],
+        [
+          105,
+          154
+        ],
+        [
+          105,
+          153
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          105,
+          150
+        ],
+        [
+          105,
+          149
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          105,
+          151
+        ],
+        [
+          104,
+          150
+        ],
+        [
+          104,
+          149
+        ],
+        [
+          104,
+          148
+        ],
+        [
+          104,
+          146
+        ],
+        [
+          104,
+          146
+        ],
+        [
+          104,
+          147
+        ],
+        [
+          104,
+          145
+        ],
+        [
+          105,
+          144
+        ],
+        [
+          105,
+          144
+        ],
+        [
+          105,
+          143
+        ],
+        [
+          105,
+          141
+        ],
+        [
+          106,
+          141
+        ],
+        [
+          106,
+          140
+        ],
+        [
+          106,
+          137
+        ],
+        [
+          107,
+          137
+        ],
+        [
+          108,
+          137
+        ],
+        [
+          108,
+          135
+        ],
+        [
+          109,
+          133
+        ],
+        [
+          110,
+          131
+        ],
+        [
+          112,
+          127
+        ],
+        [
+          115,
+          126
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "beard/fullBeard": {
+      "atlas": "beards",
+      "rect": [
+        940,
+        545,
+        340,
+        244
+      ],
+      "luminance": 0.177149,
+      "mouth": [
+        0.4985294117647059,
+        0.4774590163934426
+      ],
+      "mouthOpening": [
+        null,
+        null,
+        null,
+        null,
+        [
+          93,
+          97
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          100,
+          107
+        ],
+        [
+          99,
+          110
+        ],
+        [
+          98,
+          112
+        ],
+        [
+          98,
+          114
+        ],
+        [
+          98,
+          115
+        ],
+        [
+          98,
+          116
+        ],
+        [
+          98,
+          118
+        ],
+        [
+          98,
+          119
+        ],
+        [
+          98,
+          120
+        ],
+        [
+          98,
+          121
+        ],
+        [
+          98,
+          122
+        ],
+        [
+          99,
+          123
+        ],
+        [
+          99,
+          124
+        ],
+        [
+          99,
+          125
+        ],
+        [
+          99,
+          126
+        ],
+        [
+          99,
+          127
+        ],
+        [
+          99,
+          127
+        ],
+        [
+          100,
+          128
+        ],
+        [
+          100,
+          129
+        ],
+        [
+          100,
+          130
+        ],
+        [
+          100,
+          130
+        ],
+        [
+          100,
+          131
+        ],
+        [
+          100,
+          131
+        ],
+        [
+          101,
+          132
+        ],
+        [
+          101,
+          132
+        ],
+        [
+          101,
+          133
+        ],
+        [
+          101,
+          133
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          102,
+          135
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          101,
+          136
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          99,
+          133
+        ],
+        [
+          99,
+          133
+        ],
+        [
+          98,
+          133
+        ],
+        [
+          98,
+          133
+        ],
+        [
+          97,
+          133
+        ],
+        [
+          96,
+          133
+        ],
+        [
+          96,
+          133
+        ],
+        [
+          96,
+          133
+        ],
+        [
+          97,
+          133
+        ],
+        [
+          97,
+          133
+        ],
+        [
+          98,
+          133
+        ],
+        [
+          98,
+          133
+        ],
+        [
+          99,
+          133
+        ],
+        [
+          99,
+          133
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          100,
+          134
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          139
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          138
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          137
+        ],
+        [
+          102,
+          136
+        ],
+        [
+          101,
+          136
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          135
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          134
+        ],
+        [
+          101,
+          133
+        ],
+        [
+          101,
+          133
+        ],
+        [
+          100,
+          132
+        ],
+        [
+          100,
+          132
+        ],
+        [
+          100,
+          131
+        ],
+        [
+          100,
+          130
+        ],
+        [
+          100,
+          130
+        ],
+        [
+          100,
+          129
+        ],
+        [
+          99,
+          128
+        ],
+        [
+          99,
+          127
+        ],
+        [
+          99,
+          127
+        ],
+        [
+          99,
+          126
+        ],
+        [
+          99,
+          125
+        ],
+        [
+          99,
+          124
+        ],
+        [
+          98,
+          123
+        ],
+        [
+          98,
+          122
+        ],
+        [
+          98,
+          121
+        ],
+        [
+          98,
+          120
+        ],
+        [
+          98,
+          119
+        ],
+        [
+          98,
+          118
+        ],
+        [
+          98,
+          117
+        ],
+        [
+          98,
+          115
+        ],
+        [
+          98,
+          114
+        ],
+        [
+          98,
+          112
+        ],
+        [
+          98,
+          110
+        ],
+        [
+          100,
+          105
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "beard/longBeard": {
+      "atlas": "beards",
+      "rect": [
+        1382,
+        518,
+        353,
+        292
+      ],
+      "luminance": 0.179383,
+      "mouth": [
+        0.5,
+        0.4674657534246575
+      ],
+      "mouthOpening": [
+        null,
+        null,
+        null,
+        null,
+        [
+          117,
+          131
+        ],
+        [
+          122,
+          128
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          122,
+          126
+        ],
+        [
+          119,
+          130
+        ],
+        [
+          119,
+          132
+        ],
+        [
+          118,
+          134
+        ],
+        [
+          118,
+          135
+        ],
+        [
+          118,
+          137
+        ],
+        [
+          118,
+          138
+        ],
+        [
+          118,
+          139
+        ],
+        [
+          118,
+          141
+        ],
+        [
+          118,
+          142
+        ],
+        [
+          118,
+          143
+        ],
+        [
+          118,
+          143
+        ],
+        [
+          118,
+          144
+        ],
+        [
+          119,
+          145
+        ],
+        [
+          119,
+          146
+        ],
+        [
+          119,
+          147
+        ],
+        [
+          119,
+          148
+        ],
+        [
+          119,
+          148
+        ],
+        [
+          119,
+          149
+        ],
+        [
+          120,
+          150
+        ],
+        [
+          120,
+          150
+        ],
+        [
+          120,
+          151
+        ],
+        [
+          120,
+          151
+        ],
+        [
+          120,
+          152
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          122,
+          155
+        ],
+        [
+          122,
+          155
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          159
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          158
+        ],
+        [
+          123,
+          157
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          155
+        ],
+        [
+          122,
+          155
+        ],
+        [
+          122,
+          154
+        ],
+        [
+          122,
+          154
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          119,
+          153
+        ],
+        [
+          119,
+          152
+        ],
+        [
+          118,
+          152
+        ],
+        [
+          118,
+          152
+        ],
+        [
+          117,
+          152
+        ],
+        [
+          116,
+          152
+        ],
+        [
+          116,
+          152
+        ],
+        [
+          116,
+          152
+        ],
+        [
+          116,
+          152
+        ],
+        [
+          117,
+          152
+        ],
+        [
+          118,
+          152
+        ],
+        [
+          118,
+          152
+        ],
+        [
+          119,
+          153
+        ],
+        [
+          119,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          121,
+          153
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          122,
+          155
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          159
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          158
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          157
+        ],
+        [
+          122,
+          156
+        ],
+        [
+          121,
+          156
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          121,
+          155
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          121,
+          154
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          120,
+          153
+        ],
+        [
+          120,
+          152
+        ],
+        [
+          120,
+          151
+        ],
+        [
+          119,
+          151
+        ],
+        [
+          119,
+          150
+        ],
+        [
+          119,
+          149
+        ],
+        [
+          119,
+          149
+        ],
+        [
+          118,
+          148
+        ],
+        [
+          118,
+          147
+        ],
+        [
+          118,
+          146
+        ],
+        [
+          118,
+          146
+        ],
+        [
+          118,
+          145
+        ],
+        [
+          117,
+          144
+        ],
+        [
+          117,
+          143
+        ],
+        [
+          117,
+          142
+        ],
+        [
+          116,
+          141
+        ],
+        [
+          116,
+          140
+        ],
+        [
+          116,
+          139
+        ],
+        [
+          115,
+          138
+        ],
+        [
+          115,
+          137
+        ],
+        [
+          115,
+          135
+        ],
+        [
+          115,
+          134
+        ],
+        [
+          115,
+          133
+        ],
+        [
+          116,
+          131
+        ],
+        [
+          116,
+          129
+        ],
+        [
+          117,
+          126
+        ],
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        [
+          131,
+          135
+        ],
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "torso/straight": {
+      "atlas": "torsos-fitted",
+      "rect": [
+        28,
+        75,
+        358,
+        563
+      ],
+      "luminance": 0.726577,
+      "neck": [
+        0.4958100558659218,
+        0
+      ],
+      "shoulders": [
+        [
+          0.12307262569832403,
+          0.16
+        ],
+        [
+          0.8741340782122904,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.27583798882681565,
+          0.88
+        ],
+        [
+          0.7171787709497207,
+          0.88
+        ]
+      ],
+      "hem": [
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        524,
+        524,
+        524,
+        525,
+        525,
+        525,
+        525,
+        526,
+        526,
+        526,
+        526,
+        527,
+        527,
+        527,
+        527,
+        528,
+        528,
+        528,
+        528,
+        528,
+        529,
+        529,
+        529,
+        529,
+        529,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        532,
+        532,
+        532,
+        532,
+        532,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        530,
+        530,
+        530,
+        530,
+        530,
+        529,
+        529,
+        529,
+        529,
+        529,
+        528,
+        528,
+        528,
+        528,
+        528,
+        527,
+        527,
+        527,
+        527,
+        526,
+        526,
+        526,
+        526,
+        525,
+        525,
+        525,
+        525,
+        524,
+        524,
+        524,
+        524,
+        523,
+        523,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422,
+        422
+      ],
+      "cuffs": [
+        [
+          0.055865921787709494,
+          0.49441340782122906,
+          0.9511036191467458
+        ],
+        [
+          0.49441340782122906,
+          0.9413407821229051,
+          0.9504995559502665
+        ]
+      ]
+    },
+    "torso/balanced": {
+      "atlas": "torsos-fitted",
+      "rect": [
+        423,
+        75,
+        350,
+        559
+      ],
+      "luminance": 0.725173,
+      "neck": [
+        0.5,
+        0
+      ],
+      "shoulders": [
+        [
+          0.13571428571428573,
+          0.16
+        ],
+        [
+          0.8642857142857143,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.26285714285714284,
+          0.88
+        ],
+        [
+          0.7385714285714285,
+          0.88
+        ]
+      ],
+      "hem": [
+        419,
+        419,
+        419,
+        419,
+        419,
+        419,
+        419,
+        419,
+        522,
+        522,
+        523,
+        523,
+        523,
+        524,
+        524,
+        524,
+        525,
+        525,
+        525,
+        525,
+        526,
+        526,
+        526,
+        526,
+        527,
+        527,
+        527,
+        527,
+        528,
+        528,
+        528,
+        528,
+        528,
+        529,
+        529,
+        529,
+        529,
+        529,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        541,
+        527,
+        527,
+        527,
+        527,
+        527,
+        526,
+        527,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        530,
+        530,
+        530,
+        530,
+        530,
+        529,
+        529,
+        529,
+        529,
+        529,
+        528,
+        528,
+        528,
+        528,
+        527,
+        527,
+        527,
+        527,
+        527,
+        526,
+        526,
+        526,
+        526,
+        525,
+        525,
+        525,
+        524,
+        524,
+        524,
+        524,
+        523,
+        523,
+        523,
+        523,
+        522,
+        522,
+        522,
+        521,
+        521,
+        521,
+        520,
+        419,
+        419,
+        419,
+        419,
+        419,
+        419,
+        419
+      ],
+      "cuffs": [
+        [
+          0.022857142857142857,
+          0.5,
+          0.9573125662806765
+        ],
+        [
+          0.5,
+          0.98,
+          0.9561610869750404
+        ]
+      ]
+    },
+    "torso/curved": {
+      "atlas": "torsos-fitted",
+      "rect": [
+        816,
+        75,
+        352,
+        560
+      ],
+      "luminance": 0.725173,
+      "neck": [
+        0.5,
+        0
+      ],
+      "shoulders": [
+        [
+          0.12397727272727274,
+          0.16
+        ],
+        [
+          0.8788636363636364,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.25142045454545453,
+          0.88
+        ],
+        [
+          0.7457386363636364,
+          0.88
+        ]
+      ],
+      "hem": [
+        420,
+        520,
+        521,
+        521,
+        522,
+        522,
+        523,
+        523,
+        523,
+        523,
+        524,
+        524,
+        524,
+        525,
+        525,
+        525,
+        526,
+        526,
+        526,
+        526,
+        527,
+        527,
+        527,
+        527,
+        528,
+        528,
+        528,
+        528,
+        528,
+        529,
+        529,
+        529,
+        529,
+        529,
+        530,
+        530,
+        530,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        540,
+        526,
+        526,
+        526,
+        526,
+        526,
+        527,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        535,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        533,
+        533,
+        533,
+        533,
+        533,
+        533,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        530,
+        530,
+        530,
+        530,
+        530,
+        529,
+        529,
+        529,
+        529,
+        529,
+        528,
+        528,
+        528,
+        528,
+        527,
+        527,
+        527,
+        527,
+        526,
+        526,
+        526,
+        526,
+        525,
+        525,
+        525,
+        524,
+        524,
+        524,
+        524,
+        523,
+        523,
+        523,
+        522,
+        522,
+        522,
+        521,
+        521,
+        520,
+        520,
+        520,
+        420,
+        420
+      ],
+      "cuffs": [
+        [
+          0.002840909090909091,
+          0.5,
+          0.9556530612244899
+        ],
+        [
+          0.5,
+          0.9943181818181818,
+          0.955326354679803
+        ]
+      ]
+    },
+    "torso/pear": {
+      "atlas": "torsos-fitted",
+      "rect": [
+        1196,
+        87,
+        368,
+        549
+      ],
+      "luminance": 0.72686,
+      "neck": [
+        0.49728260869565216,
+        0
+      ],
+      "shoulders": [
+        [
+          0.1841304347826087,
+          0.16
+        ],
+        [
+          0.8131521739130434,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.2513586956521739,
+          0.88
+        ],
+        [
+          0.7445652173913043,
+          0.88
+        ]
+      ],
+      "hem": [
+        412,
+        508,
+        508,
+        509,
+        509,
+        510,
+        510,
+        511,
+        511,
+        511,
+        512,
+        512,
+        512,
+        513,
+        513,
+        513,
+        514,
+        514,
+        514,
+        515,
+        515,
+        515,
+        515,
+        516,
+        516,
+        516,
+        516,
+        517,
+        517,
+        517,
+        517,
+        518,
+        518,
+        518,
+        518,
+        519,
+        519,
+        519,
+        519,
+        519,
+        520,
+        520,
+        520,
+        520,
+        520,
+        521,
+        521,
+        521,
+        521,
+        521,
+        522,
+        522,
+        522,
+        522,
+        522,
+        522,
+        523,
+        523,
+        523,
+        523,
+        523,
+        523,
+        524,
+        524,
+        524,
+        524,
+        524,
+        524,
+        524,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        531,
+        531,
+        515,
+        514,
+        514,
+        514,
+        514,
+        514,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        531,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        530,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        529,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        528,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        527,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        526,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        525,
+        524,
+        524,
+        524,
+        524,
+        524,
+        524,
+        524,
+        523,
+        523,
+        523,
+        523,
+        523,
+        523,
+        522,
+        522,
+        522,
+        522,
+        522,
+        522,
+        521,
+        521,
+        521,
+        521,
+        521,
+        520,
+        520,
+        520,
+        520,
+        520,
+        519,
+        519,
+        519,
+        519,
+        519,
+        518,
+        518,
+        518,
+        518,
+        518,
+        517,
+        517,
+        517,
+        516,
+        516,
+        516,
+        516,
+        516,
+        515,
+        515,
+        515,
+        514,
+        514,
+        514,
+        514,
+        513,
+        513,
+        513,
+        513,
+        512,
+        512,
+        512,
+        511,
+        511,
+        511,
+        510,
+        510,
+        510,
+        509,
+        509,
+        509,
+        508,
+        508,
+        508,
+        507,
+        507,
+        506,
+        506,
+        506,
+        505,
+        505,
+        504,
+        504,
+        412
+      ],
+      "cuffs": [
+        [
+          0.002717391304347826,
+          0.49728260869565216,
+          0.9561240216977922
+        ],
+        [
+          0.49728260869565216,
+          0.9972826086956522,
+          0.9525619703809296
+        ]
+      ]
+    },
+    "torso/broad": {
+      "atlas": "torsos-fitted",
+      "rect": [
+        1586,
+        70,
+        383,
+        568
+      ],
+      "luminance": 0.72686,
+      "neck": [
+        0.4804177545691906,
+        0
+      ],
+      "shoulders": [
+        [
+          0.08044386422976502,
+          0.16
+        ],
+        [
+          0.8777806788511748,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.26762402088772846,
+          0.88
+        ],
+        [
+          0.6984334203655352,
+          0.88
+        ]
+      ],
+      "hem": [
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        525,
+        525,
+        526,
+        526,
+        527,
+        527,
+        527,
+        528,
+        528,
+        528,
+        529,
+        529,
+        529,
+        530,
+        530,
+        530,
+        531,
+        531,
+        531,
+        531,
+        532,
+        532,
+        532,
+        532,
+        532,
+        533,
+        533,
+        533,
+        533,
+        534,
+        534,
+        534,
+        534,
+        534,
+        534,
+        535,
+        535,
+        535,
+        535,
+        535,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        538,
+        538,
+        538,
+        538,
+        538,
+        538,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        546,
+        546,
+        532,
+        532,
+        532,
+        532,
+        532,
+        532,
+        546,
+        546,
+        546,
+        546,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        547,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        546,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        545,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        544,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        543,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        542,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        541,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        540,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        539,
+        538,
+        538,
+        538,
+        538,
+        538,
+        537,
+        537,
+        537,
+        537,
+        537,
+        537,
+        536,
+        536,
+        536,
+        536,
+        536,
+        536,
+        535,
+        535,
+        535,
+        535,
+        535,
+        534,
+        534,
+        534,
+        534,
+        534,
+        533,
+        533,
+        533,
+        533,
+        532,
+        532,
+        532,
+        532,
+        531,
+        531,
+        531,
+        531,
+        530,
+        530,
+        530,
+        529,
+        529,
+        529,
+        529,
+        528,
+        528,
+        528,
+        527,
+        527,
+        527,
+        526,
+        526,
+        526,
+        525,
+        525,
+        524,
+        524,
+        523,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426,
+        426
+      ],
+      "cuffs": [
+        [
+          0.05221932114882506,
+          0.4804177545691906,
+          0.950339230504981
+        ],
+        [
+          0.4804177545691906,
+          0.9216710182767625,
+          0.9495270439203267
+        ]
+      ]
+    },
+    "arm/slim/left": {
+      "atlas": "limbs",
+      "rect": [
+        100,
+        32,
+        121,
+        425
+      ],
+      "luminance": 0.706635,
+      "anchor": [
+        0.85108,
+        0
+      ]
+    },
+    "arm/slim/right": {
+      "atlas": "limbs",
+      "rect": [
+        361,
+        32,
+        118,
+        425
+      ],
+      "luminance": 0.706367,
+      "anchor": [
+        0.14231,
+        0
+      ]
+    },
+    "arm/regular/left": {
+      "atlas": "limbs",
+      "rect": [
+        565,
+        32,
+        120,
+        425
+      ],
+      "luminance": 0.706367,
+      "anchor": [
+        0.84083,
+        0
+      ]
+    },
+    "arm/regular/right": {
+      "atlas": "limbs",
+      "rect": [
+        853,
+        32,
+        119,
+        425
+      ],
+      "luminance": 0.705801,
+      "anchor": [
+        0.15536,
+        0
+      ]
+    },
+    "arm/full/left": {
+      "atlas": "limbs",
+      "rect": [
+        1055,
+        32,
+        131,
+        425
+      ],
+      "luminance": 0.706351,
+      "anchor": [
+        0.83592,
+        0
+      ]
+    },
+    "arm/full/right": {
+      "atlas": "limbs",
+      "rect": [
+        1334,
+        32,
+        128,
+        425
+      ],
+      "luminance": 0.705801,
+      "anchor": [
+        0.16298,
+        0
+      ]
+    },
+    "leg/slim/left": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        125,
+        512,
+        126,
+        432
+      ],
+      "luminance": 0.740209,
+      "anchor": [
+        0.59863,
+        0
+      ],
+      "section": [
+        0.2777777777777778,
+        0.9365079365079365
+      ]
+    },
+    "leg/slim/right": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        329,
+        512,
+        124,
+        432
+      ],
+      "luminance": 0.740209,
+      "anchor": [
+        0.39084,
+        0
+      ],
+      "section": [
+        0.04838709677419355,
+        0.7096774193548387
+      ]
+    },
+    "leg/regular/left": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        606,
+        512,
+        132,
+        432
+      ],
+      "luminance": 0.739376,
+      "anchor": [
+        0.57926,
+        0
+      ],
+      "section": [
+        0.2196969696969697,
+        0.9545454545454546
+      ]
+    },
+    "leg/regular/right": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        798,
+        512,
+        133,
+        432
+      ],
+      "luminance": 0.739926,
+      "anchor": [
+        0.41761,
+        0
+      ],
+      "section": [
+        0.05263157894736842,
+        0.7819548872180451
+      ]
+    },
+    "leg/full/left": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        1082,
+        512,
+        153,
+        432
+      ],
+      "luminance": 0.739376,
+      "anchor": [
+        0.5899,
+        0
+      ],
+      "section": [
+        0.22875816993464052,
+        0.9607843137254902
+      ]
+    },
+    "leg/full/right": {
+      "atlas": "limbs-barefoot",
+      "rect": [
+        1282,
+        512,
+        151,
+        433
+      ],
+      "luminance": 0.739926,
+      "anchor": [
+        0.41602,
+        0
+      ],
+      "section": [
+        0.046357615894039736,
+        0.7947019867549668
+      ]
+    },
+    "arm/lean/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        99,
+        46,
+        129,
+        411
+      ],
+      "luminance": 0.720103,
+      "anchor": [
+        0.87263,
+        0
+      ]
+    },
+    "arm/lean/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        365,
+        46,
+        126,
+        411
+      ],
+      "luminance": 0.720103,
+      "anchor": [
+        0.12678,
+        0
+      ]
+    },
+    "arm/athletic/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        562,
+        44,
+        130,
+        414
+      ],
+      "luminance": 0.723191,
+      "anchor": [
+        0.84922,
+        0
+      ]
+    },
+    "arm/athletic/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        843,
+        44,
+        131,
+        414
+      ],
+      "luminance": 0.720936,
+      "anchor": [
+        0.14314,
+        0
+      ]
+    },
+    "arm/muscular/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        1045,
+        42,
+        134,
+        415
+      ],
+      "luminance": 0.720936,
+      "anchor": [
+        0.85063,
+        0
+      ]
+    },
+    "arm/muscular/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        1331,
+        42,
+        135,
+        415
+      ],
+      "luminance": 0.723191,
+      "anchor": [
+        0.14557,
+        0
+      ]
+    },
+    "leg/lean/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        123,
+        513,
+        133,
+        432
+      ],
+      "luminance": 0.720653,
+      "anchor": [
+        0.61941,
+        0
+      ],
+      "section": [
+        0.2857142857142857,
+        0.9624060150375939
+      ]
+    },
+    "leg/lean/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        326,
+        512,
+        131,
+        433
+      ],
+      "luminance": 0.722907,
+      "anchor": [
+        0.39209,
+        0
+      ],
+      "section": [
+        0.04580152671755725,
+        0.7251908396946565
+      ]
+    },
+    "leg/athletic/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        601,
+        512,
+        141,
+        433
+      ],
+      "luminance": 0.722624,
+      "anchor": [
+        0.56587,
+        0
+      ],
+      "section": [
+        0.19148936170212766,
+        0.950354609929078
+      ]
+    },
+    "leg/athletic/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        794,
+        512,
+        140,
+        433
+      ],
+      "luminance": 0.722907,
+      "anchor": [
+        0.42632,
+        0
+      ],
+      "section": [
+        0.04285714285714286,
+        0.8071428571428572
+      ]
+    },
+    "leg/muscular/left": {
+      "atlas": "limbs-training",
+      "rect": [
+        1080,
+        512,
+        158,
+        433
+      ],
+      "luminance": 0.720653,
+      "anchor": [
+        0.58072,
+        0
+      ],
+      "section": [
+        0.20253164556962025,
+        0.9493670886075949
+      ]
+    },
+    "leg/muscular/right": {
+      "atlas": "limbs-training",
+      "rect": [
+        1280,
+        512,
+        152,
+        433
+      ],
+      "luminance": 0.720936,
+      "anchor": [
+        0.41583,
+        0
+      ],
+      "section": [
+        0.019736842105263157,
+        0.8223684210526315
+      ]
+    },
+    "torso/athletic": {
+      "atlas": "torsos-training",
+      "rect": [
+        162,
+        71,
+        563,
+        800
+      ],
+      "luminance": 0.738342,
+      "neck": [
+        0.5062166962699822,
+        0
+      ],
+      "shoulders": [
+        [
+          0.11973357015985792,
+          0.16
+        ],
+        [
+          0.8802664298401421,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.29928952042628776,
+          0.88
+        ],
+        [
+          0.7078152753108349,
+          0.88
+        ]
+      ],
+      "hem": [
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        741,
+        742,
+        742,
+        743,
+        743,
+        744,
+        744,
+        744,
+        745,
+        745,
+        746,
+        746,
+        746,
+        747,
+        747,
+        747,
+        748,
+        748,
+        748,
+        749,
+        749,
+        749,
+        750,
+        750,
+        750,
+        751,
+        751,
+        751,
+        752,
+        752,
+        752,
+        752,
+        753,
+        753,
+        753,
+        754,
+        754,
+        754,
+        754,
+        755,
+        755,
+        755,
+        755,
+        756,
+        756,
+        756,
+        756,
+        757,
+        757,
+        757,
+        757,
+        757,
+        758,
+        758,
+        758,
+        758,
+        759,
+        759,
+        759,
+        759,
+        759,
+        760,
+        760,
+        760,
+        760,
+        760,
+        761,
+        761,
+        761,
+        761,
+        761,
+        762,
+        762,
+        762,
+        762,
+        762,
+        762,
+        763,
+        763,
+        763,
+        763,
+        763,
+        764,
+        764,
+        764,
+        764,
+        764,
+        764,
+        765,
+        765,
+        765,
+        765,
+        765,
+        765,
+        765,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        767,
+        767,
+        767,
+        767,
+        767,
+        767,
+        767,
+        767,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        772,
+        770,
+        746,
+        746,
+        746,
+        746,
+        746,
+        746,
+        746,
+        746,
+        746,
+        772,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        770,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        767,
+        767,
+        767,
+        767,
+        767,
+        767,
+        767,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        766,
+        765,
+        765,
+        765,
+        765,
+        765,
+        765,
+        765,
+        764,
+        764,
+        764,
+        764,
+        764,
+        764,
+        763,
+        763,
+        763,
+        763,
+        763,
+        762,
+        762,
+        762,
+        762,
+        762,
+        762,
+        761,
+        761,
+        761,
+        761,
+        761,
+        760,
+        760,
+        760,
+        760,
+        760,
+        759,
+        759,
+        759,
+        759,
+        758,
+        758,
+        758,
+        758,
+        758,
+        757,
+        757,
+        757,
+        757,
+        756,
+        756,
+        756,
+        756,
+        755,
+        755,
+        755,
+        755,
+        754,
+        754,
+        754,
+        754,
+        753,
+        753,
+        753,
+        753,
+        752,
+        752,
+        752,
+        751,
+        751,
+        751,
+        750,
+        750,
+        750,
+        749,
+        749,
+        749,
+        748,
+        748,
+        748,
+        747,
+        747,
+        746,
+        746,
+        746,
+        745,
+        745,
+        745,
+        744,
+        744,
+        743,
+        743,
+        742,
+        742,
+        741,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600,
+        600
+      ],
+      "cuffs": [
+        [
+          0.08880994671403197,
+          0.5062166962699822,
+          0.955281914893617
+        ],
+        [
+          0.5062166962699822,
+          0.9147424511545293,
+          0.955429347826087
+        ]
+      ]
+    },
+    "torso/muscular": {
+      "atlas": "torsos-training",
+      "rect": [
+        780,
+        63,
+        624,
+        808
+      ],
+      "luminance": 0.73442,
+      "neck": [
+        0.5,
+        0
+      ],
+      "shoulders": [
+        [
+          0.1308974358974359,
+          0.16
+        ],
+        [
+          0.8723076923076922,
+          0.16
+        ]
+      ],
+      "hips": [
+        [
+          0.3044871794871795,
+          0.88
+        ],
+        [
+          0.6931089743589743,
+          0.88
+        ]
+      ],
+      "hem": [
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        749,
+        749,
+        750,
+        750,
+        750,
+        751,
+        751,
+        752,
+        752,
+        753,
+        753,
+        753,
+        754,
+        754,
+        754,
+        755,
+        755,
+        756,
+        756,
+        756,
+        757,
+        757,
+        757,
+        758,
+        758,
+        758,
+        759,
+        759,
+        759,
+        759,
+        760,
+        760,
+        760,
+        761,
+        761,
+        761,
+        761,
+        762,
+        762,
+        762,
+        762,
+        763,
+        763,
+        763,
+        764,
+        764,
+        764,
+        764,
+        764,
+        765,
+        765,
+        765,
+        765,
+        766,
+        766,
+        766,
+        766,
+        766,
+        767,
+        767,
+        767,
+        767,
+        768,
+        768,
+        768,
+        768,
+        768,
+        768,
+        769,
+        769,
+        769,
+        769,
+        769,
+        770,
+        770,
+        770,
+        770,
+        770,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        780,
+        755,
+        755,
+        755,
+        755,
+        755,
+        755,
+        755,
+        755,
+        755,
+        780,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        781,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        780,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        779,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        778,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        777,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        776,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        775,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        774,
+        773,
+        773,
+        773,
+        773,
+        773,
+        773,
+        772,
+        772,
+        772,
+        772,
+        772,
+        772,
+        771,
+        771,
+        771,
+        771,
+        771,
+        771,
+        770,
+        770,
+        770,
+        770,
+        770,
+        769,
+        769,
+        769,
+        769,
+        769,
+        769,
+        768,
+        768,
+        768,
+        768,
+        768,
+        767,
+        767,
+        767,
+        767,
+        767,
+        766,
+        766,
+        766,
+        766,
+        765,
+        765,
+        765,
+        765,
+        765,
+        764,
+        764,
+        764,
+        764,
+        763,
+        763,
+        763,
+        762,
+        762,
+        762,
+        762,
+        761,
+        761,
+        761,
+        760,
+        760,
+        760,
+        760,
+        759,
+        759,
+        759,
+        758,
+        758,
+        758,
+        757,
+        757,
+        757,
+        756,
+        756,
+        756,
+        755,
+        755,
+        754,
+        754,
+        754,
+        753,
+        753,
+        753,
+        752,
+        752,
+        751,
+        751,
+        750,
+        750,
+        750,
+        749,
+        749,
+        748,
+        748,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606,
+        606
+      ],
+      "cuffs": [
+        [
+          0.10576923076923077,
+          0.5,
+          0.955978829590276
+        ],
+        [
+          0.5,
+          0.8894230769230769,
+          0.9558173409933587
+        ]
+      ]
+    },
+    "eyes/deepSet": {
+      "atlas": "eyes-refined",
+      "rect": [
+        44,
+        752,
+        321,
+        81
+      ],
+      "luminance": 0.25
+    },
+    "eyes/doubleFold": {
+      "atlas": "eyes-refined",
+      "rect": [
+        421,
+        744,
+        323,
+        89
+      ],
+      "luminance": 0.25
+    },
+    "eyes/longFissure": {
+      "atlas": "eyes-refined",
+      "rect": [
+        794,
+        762,
+        339,
+        66
+      ],
+      "luminance": 0.25
+    },
+    "eyes/softOval": {
+      "atlas": "eyes-refined",
+      "rect": [
+        1181,
+        757,
+        320,
+        76
+      ],
+      "luminance": 0.25
+    },
+    "hair/texturedCrop": {
+      "atlas": "hair-texturedCrop-v2",
+      "rect": [
+        272,
+        100,
+        992,
+        675
+      ],
+      "luminance": 0.19956844359685535,
+      "placement": [
+        -18.5,
+        6.979694700460831,
+        37,
+        27.84058179723502
+      ],
+      "faceOpening": [
+        0.5,
+        0.8227407588739291
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "rearInset": 0.02,
+        "outerGuard": 0.75,
+        "templeCut": true
+      }
+    },
+    "hair/curtains": {
+      "atlas": "hair-curtains",
+      "rect": [
+        198,
+        198,
+        869,
+        768
+      ],
+      "luminance": 0.18901113720402973,
+      "placement": [
+        -23.202531645569625,
+        7.424905660377359,
+        47,
+        45.22641509433962
+      ],
+      "faceOpening": [
+        0.4936708860759494,
+        0.5023529411764706
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "faceContour": true,
+        "outerGuard": 0.75,
+        "rearInset": 0.02,
+        "fitOpening": true
+      }
+    },
+    "hair/broFlow": {
+      "atlas": "hair-broFlow",
+      "rect": [
+        160,
+        155,
+        972,
+        799
+      ],
+      "luminance": 0.1873368716317485,
+      "placement": [
+        -23.061728395061728,
+        6.4132727272727275,
+        48,
+        47.56363636363636
+      ],
+      "faceOpening": [
+        0.48045267489711935,
+        0.49761467889908256
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "faceContour": true,
+        "outerGuard": 0.75,
+        "rearInset": 0.02,
+        "fitOpening": true
+      }
+    },
+    "hair/longSlickBack": {
+      "atlas": "hair-longSlickBack",
+      "rect": [
+        128,
+        95,
+        1007,
+        1040
+      ],
+      "luminance": 0.18167860519115042,
+      "placement": [
+        -25.272095332671302,
+        7.142857142857142,
+        51,
+        68.30357142857143
+      ],
+      "faceOpening": [
+        0.4955312810327706,
+        0.3416
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "faceContour": true,
+        "outerGuard": 0.75,
+        "rearInset": 0.02,
+        "fitOpening": true
+      }
+    },
+    "hair/slickUndercut": {
+      "atlas": "hair-slickUndercut-v2",
+      "rect": [
+        288,
+        59,
+        954,
+        716
+      ],
+      "luminance": 0.20372764045051311,
+      "placement": [
+        -18.364779874213834,
+        5.751266513593558,
+        36.5,
+        30.292979712266924
+      ],
+      "faceOpening": [
+        0.5031446540880503,
+        0.7739378543681656
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "rearInset": 0.02,
+        "outerGuard": 0.75,
+        "templeCut": true,
+        "sideburnEnd": 0.5
+      }
+    },
+    "hair/lowManBun": {
+      "atlas": "hair-lowManBun",
+      "rect": [
+        237,
+        133,
+        848,
+        887
+      ],
+      "luminance": 0.19655656835296095,
+      "placement": [
+        -20.23584905660377,
+        7.715000000000001,
+        44,
+        44.916666666666664
+      ],
+      "faceOpening": [
+        0.45990566037735847,
+        0.5024489795918368
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "outerGuard": 2,
+        "rearInset": 0.02,
+        "tailSide": "right"
+      }
+    },
+    "hair/mediumCurls": {
+      "atlas": "hair-mediumCurls",
+      "rect": [
+        135,
+        149,
+        1017,
+        920
+      ],
+      "luminance": 0.17881533093899676,
+      "placement": [
+        -23.705014749262535,
+        6.335,
+        49,
+        47.25
+      ],
+      "faceOpening": [
+        0.4837758112094395,
+        0.5022222222222222
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "faceContour": true,
+        "outerGuard": 0.75,
+        "rearInset": 0.02,
+        "fitOpening": true
+      }
+    },
+    "hair/texturedSlickBack": {
+      "atlas": "hair-texturedSlickBack-v2",
+      "rect": [
+        301,
+        65,
+        939,
+        755
+      ],
+      "luminance": 0.2043945507411594,
+      "placement": [
+        -19.396166134185304,
+        2.7207414169075483,
+        39,
+        34.67611609784134
+      ],
+      "faceOpening": [
+        0.49733759318423854,
+        0.7652913970658134
+      ],
+      "layers": {
+        "rear": "volume",
+        "nape": 1.2,
+        "templeEnd": 0.64,
+        "rearInset": 0.02,
+        "outerGuard": 0.75,
+        "templeCut": true
+      }
+    }
+  }
+}

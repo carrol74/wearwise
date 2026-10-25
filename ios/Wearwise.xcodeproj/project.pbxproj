@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15400000000000000000001 /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15400000000000000000002 /* PhotosUI.framework */; };
+		A15300000000000000000001 /* PhotoLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15300000000000000000002 /* PhotoLibraryView.swift */; };
+		A15200000000000000000011 /* NativeReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15200000000000000000001 /* NativeReviewTests.swift */; };
+		A15100000000000000000011 /* PreferencesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15100000000000000000001 /* PreferencesStore.swift */; };
+		A15100000000000000000012 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15100000000000000000002 /* PreferencesView.swift */; };
+		A15100000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15100000000000000000003 /* Assets.xcassets */; };
+		A15000000000000000000011 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15000000000000000000001 /* Brand.swift */; };
+		A15000000000000000000012 /* BrandStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15000000000000000000002 /* BrandStore.swift */; };
+		A15000000000000000000013 /* BrandsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15000000000000000000003 /* BrandsView.swift */; };
+		A14E00000000000000000003 /* JournalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D00000000000000000003 /* JournalStore.swift */; };
+		A14E00000000000000000002 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D00000000000000000002 /* CharacterView.swift */; };
+		A14E00000000000000000001 /* GarmentImagePanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D00000000000000000001 /* GarmentImagePanel.swift */; };
+		A14C00000000000000000004 /* GarmentCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C00000000000000000001 /* GarmentCollection.swift */; };
+		A14C00000000000000000005 /* ShoppingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C00000000000000000002 /* ShoppingStore.swift */; };
+		A14C00000000000000000006 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14C00000000000000000003 /* ShoppingView.swift */; };
+		0883B1AE7A9024ADD7A3B38A /* FlatlayEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB3AAE760A4B64133FDC8FE /* FlatlayEditorView.swift */; };
+		57EA51630AC6183525809F10 /* OutfitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA070FC4A548770E8E485B /* OutfitStore.swift */; };
+		5DFFD7469371ED43645DC063 /* CompositionCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431001087EAD43AF4BE3A93 /* CompositionCanvas.swift */; };
+		6DC11112A2B2DD7E0761F33F /* AssetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB7FFD0B2E60A32B0A7C82D /* AssetStore.swift */; };
+		6F3597DA378671E031B0C965 /* GarmentTagControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B146C233552ED2863738DE /* GarmentTagControls.swift */; };
+		786B740E88BEA8FE648C0262 /* WardrobeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305A239EC851CD2D1F0BF21 /* WardrobeView.swift */; };
+		7F019F12C3E989EE76644FB9 /* PurchaseDraft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C5AFC7B4F5BA2AEDF38F0C /* PurchaseDraft.swift */; };
+		8447EBB495BE2DECCA0B852B /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A3431E092AA310183E7A4 /* JournalView.swift */; };
+		8915B48FDFE1C71136D2F0EF /* WearwiseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 256E4C513130C2199405E0F9 /* WearwiseCore */; };
+		910351989B032B99197B91D4 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1102504B6DE1751F8986105A /* Palette.swift */; };
+		94C909C6EE162ECBAA0B54D5 /* Outfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF8487B6F64073B297F7F8 /* Outfit.swift */; };
+		9E81AC902DE9C85DD5100463 /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894E253043EC4D418D1E9FA9 /* ImportView.swift */; };
+		A1CB294624132D4BE94327E6 /* black-tshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA9DBC2D0209D90838EDBC18 /* black-tshirt.jpg */; };
+		AD1CEF01E6BD169070465FC0 /* ImageImportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774922CF42CCFD44453890FD /* ImageImportTests.swift */; };
+		B4BBC454D8F242620E2BA381 /* NavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766C1BCD6416D86B54A3ED8 /* NavigationTests.swift */; };
+		B9F35BBBE0DB0B4930F929CF /* GarmentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572AD856152E21EAC8C5C647 /* GarmentStore.swift */; };
+		BDC490FC1224BC4507BD7833 /* GarmentEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F36DCD3BC23EBFAC7166C22 /* GarmentEditView.swift */; };
+		BFD4CE83C51E42B5BE030ED2 /* ImageImportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D1FF1BBB93BB31D19F6A /* ImageImportService.swift */; };
+		D4AD2ACE632DB432E8BAC892 /* GarmentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D52FFE79480DB40EEADF8C2 /* GarmentDetailView.swift */; };
+		DC855BCBEB7DCB1F38D453BA /* PurchaseCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB82DA0671217E8840EFFE /* PurchaseCalculatorView.swift */; };
+		E4B73BC5959F422D5F8CA255 /* WearwiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5154F3E647A31E081007B66 /* WearwiseApp.swift */; };
+		EF2B88531F34853DFA3C6A0F /* WardrobeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173FE2F0174AE906EAB3D56C /* WardrobeFilter.swift */; };
+		F983D5706370F4A6EFBE5AFB /* GarmentCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0F76F781A4090287ADB41 /* GarmentCategory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1267F10B0A75F7C51C8E0825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220D80570690391F1DC2EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE98E89AB69105527BCE69;
+			remoteInfo = Wearwise;
+		};
+		4DC3E174DA110D66949984A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5220D80570690391F1DC2EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CE98E89AB69105527BCE69;
+			remoteInfo = Wearwise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15400000000000000000002 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		A15300000000000000000002 /* PhotoLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryView.swift; sourceTree = "<group>"; };
+		A15200000000000000000001 /* NativeReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeReviewTests.swift; sourceTree = "<group>"; };
+		A15100000000000000000001 /* PreferencesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesStore.swift; sourceTree = "<group>"; };
+		A15100000000000000000002 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		A15100000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A15000000000000000000001 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		A15000000000000000000002 /* BrandStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandStore.swift; sourceTree = "<group>"; };
+		A15000000000000000000003 /* BrandsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsView.swift; sourceTree = "<group>"; };
+		A14D00000000000000000003 /* JournalStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalStore.swift; sourceTree = "<group>"; };
+		A14D00000000000000000002 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		A14D00000000000000000001 /* GarmentImagePanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentImagePanel.swift; sourceTree = "<group>"; };
+		A14C00000000000000000001 /* GarmentCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentCollection.swift; sourceTree = "<group>"; };
+		A14C00000000000000000002 /* ShoppingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingStore.swift; sourceTree = "<group>"; };
+		A14C00000000000000000003 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		0AE0F76F781A4090287ADB41 /* GarmentCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentCategory.swift; sourceTree = "<group>"; };
+		1102504B6DE1751F8986105A /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		173FE2F0174AE906EAB3D56C /* WardrobeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeFilter.swift; sourceTree = "<group>"; };
+		24C5AFC7B4F5BA2AEDF38F0C /* PurchaseDraft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDraft.swift; sourceTree = "<group>"; };
+		31B146C233552ED2863738DE /* GarmentTagControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentTagControls.swift; sourceTree = "<group>"; };
+		4431001087EAD43AF4BE3A93 /* CompositionCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionCanvas.swift; sourceTree = "<group>"; };
+		4CE8AA9D21EA239BA8A5AA81 /* WearwiseTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WearwiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB7FFD0B2E60A32B0A7C82D /* AssetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetStore.swift; sourceTree = "<group>"; };
+		50BB82DA0671217E8840EFFE /* PurchaseCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseCalculatorView.swift; sourceTree = "<group>"; };
+		572AD856152E21EAC8C5C647 /* GarmentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentStore.swift; sourceTree = "<group>"; };
+		6305A239EC851CD2D1F0BF21 /* WardrobeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WardrobeView.swift; sourceTree = "<group>"; };
+		6D52FFE79480DB40EEADF8C2 /* GarmentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentDetailView.swift; sourceTree = "<group>"; };
+		6F36DCD3BC23EBFAC7166C22 /* GarmentEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentEditView.swift; sourceTree = "<group>"; };
+		774922CF42CCFD44453890FD /* ImageImportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImportTests.swift; sourceTree = "<group>"; };
+		7766C1BCD6416D86B54A3ED8 /* NavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTests.swift; sourceTree = "<group>"; };
+		894E253043EC4D418D1E9FA9 /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		9316D1FF1BBB93BB31D19F6A /* ImageImportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImportService.swift; sourceTree = "<group>"; };
+		9547B6B35E6519D17AB98D82 /* WearwiseUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WearwiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A8A3431E092AA310183E7A4 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		AA9DBC2D0209D90838EDBC18 /* black-tshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "black-tshirt.jpg"; sourceTree = "<group>"; };
+		AE0BD1BE4EB61ABB375932FA /* Wearwise.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Wearwise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5154F3E647A31E081007B66 /* WearwiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearwiseApp.swift; sourceTree = "<group>"; };
+		BABA070FC4A548770E8E485B /* OutfitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutfitStore.swift; sourceTree = "<group>"; };
+		BEB3AAE760A4B64133FDC8FE /* FlatlayEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatlayEditorView.swift; sourceTree = "<group>"; };
+		EFDF8487B6F64073B297F7F8 /* Outfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outfit.swift; sourceTree = "<group>"; };
+		F691EBA6199167C99363D2B9 /* WearwiseCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WearwiseCore; path = ../packages/WearwiseCore; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B4F4ED16AE10DE7EB94A72A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15400000000000000000001 /* PhotosUI.framework in Frameworks */,
+				8915B48FDFE1C71136D2F0EF /* WearwiseCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15400000000000000000003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A15400000000000000000002 /* PhotosUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15000000000000000000004 /* Brands */ = {
+			isa = PBXGroup;
+			children = (
+				A15000000000000000000003 /* BrandsView.swift */,
+			);
+			path = Brands;
+			sourceTree = "<group>";
+		};
+		A14C00000000000000000007 /* Shopping */ = {
+			isa = PBXGroup;
+			children = (
+				A14C00000000000000000003 /* ShoppingView.swift */,
+			);
+			path = Shopping;
+			sourceTree = "<group>";
+		};
+		0EDB6E1344914B300D055B5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A15000000000000000000001 /* Brand.swift */,
+				EFDF8487B6F64073B297F7F8 /* Outfit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BC512E9D3540FED3990F37A /* Wardrobe */ = {
+			isa = PBXGroup;
+			children = (
+				A15100000000000000000002 /* PreferencesView.swift */,
+				6D52FFE79480DB40EEADF8C2 /* GarmentDetailView.swift */,
+				6F36DCD3BC23EBFAC7166C22 /* GarmentEditView.swift */,
+				31B146C233552ED2863738DE /* GarmentTagControls.swift */,
+				A14D00000000000000000001 /* GarmentImagePanel.swift */,
+				894E253043EC4D418D1E9FA9 /* ImportView.swift */,
+				A15300000000000000000002 /* PhotoLibraryView.swift */,
+				6305A239EC851CD2D1F0BF21 /* WardrobeView.swift */,
+			);
+			path = Wardrobe;
+			sourceTree = "<group>";
+		};
+		41714C727EEF5113DF124556 /* Wearwise */ = {
+			isa = PBXGroup;
+			children = (
+				A15100000000000000000003 /* Assets.xcassets */,
+				A599F578A2921E2420F982CA /* App */,
+				507E5D29D937989105871CF3 /* Design */,
+				BE8AD2CDB92BF10613B1A9B5 /* Features */,
+				0EDB6E1344914B300D055B5F /* Models */,
+				472561F6C47256598FE359C7 /* Services */,
+			);
+			path = Wearwise;
+			sourceTree = "<group>";
+		};
+		472561F6C47256598FE359C7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A15100000000000000000001 /* PreferencesStore.swift */,
+				A15000000000000000000002 /* BrandStore.swift */,
+				4EB7FFD0B2E60A32B0A7C82D /* AssetStore.swift */,
+				0AE0F76F781A4090287ADB41 /* GarmentCategory.swift */,
+				572AD856152E21EAC8C5C647 /* GarmentStore.swift */,
+				9316D1FF1BBB93BB31D19F6A /* ImageImportService.swift */,
+				BABA070FC4A548770E8E485B /* OutfitStore.swift */,
+				A14D00000000000000000003 /* JournalStore.swift */,
+				24C5AFC7B4F5BA2AEDF38F0C /* PurchaseDraft.swift */,
+				A14C00000000000000000001 /* GarmentCollection.swift */,
+				A14C00000000000000000002 /* ShoppingStore.swift */,
+				173FE2F0174AE906EAB3D56C /* WardrobeFilter.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		507E5D29D937989105871CF3 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				1102504B6DE1751F8986105A /* Palette.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		5F8250A6FFAB0FFDF797CAF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0BD1BE4EB61ABB375932FA /* Wearwise.app */,
+				4CE8AA9D21EA239BA8A5AA81 /* WearwiseTests.xctest */,
+				9547B6B35E6519D17AB98D82 /* WearwiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61B7EF320323FF7F17D5CFE6 /* WearwiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15200000000000000000001 /* NativeReviewTests.swift */,
+				774922CF42CCFD44453890FD /* ImageImportTests.swift */,
+				E4A58A954D55ACB088DF5756 /* Fixtures */,
+			);
+			path = WearwiseTests;
+			sourceTree = "<group>";
+		};
+		7C13542BF459274F2565BB69 = {
+			isa = PBXGroup;
+			children = (
+				A15400000000000000000003 /* Frameworks */,
+				F371897C7131D13A371B677B /* Packages */,
+				41714C727EEF5113DF124556 /* Wearwise */,
+				61B7EF320323FF7F17D5CFE6 /* WearwiseTests */,
+				FCD855B4921446967B85FBE4 /* WearwiseUITests */,
+				5F8250A6FFAB0FFDF797CAF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A599F578A2921E2420F982CA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5154F3E647A31E081007B66 /* WearwiseApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B8A1CC27D27AFDA09037B976 /* Flatlay */ = {
+			isa = PBXGroup;
+			children = (
+				4431001087EAD43AF4BE3A93 /* CompositionCanvas.swift */,
+				BEB3AAE760A4B64133FDC8FE /* FlatlayEditorView.swift */,
+				A14D00000000000000000002 /* CharacterView.swift */,
+				9A8A3431E092AA310183E7A4 /* JournalView.swift */,
+				50BB82DA0671217E8840EFFE /* PurchaseCalculatorView.swift */,
+			);
+			path = Flatlay;
+			sourceTree = "<group>";
+		};
+		BE8AD2CDB92BF10613B1A9B5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A15000000000000000000004 /* Brands */,
+				B8A1CC27D27AFDA09037B976 /* Flatlay */,
+				A14C00000000000000000007 /* Shopping */,
+				2BC512E9D3540FED3990F37A /* Wardrobe */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E4A58A954D55ACB088DF5756 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				AA9DBC2D0209D90838EDBC18 /* black-tshirt.jpg */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		F371897C7131D13A371B677B /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F691EBA6199167C99363D2B9 /* WearwiseCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		FCD855B4921446967B85FBE4 /* WearwiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7766C1BCD6416D86B54A3ED8 /* NavigationTests.swift */,
+			);
+			path = WearwiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE98E89AB69105527BCE69 /* Wearwise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A4B28CB84FFE676CFD62B1 /* Build configuration list for PBXNativeTarget "Wearwise" */;
+			buildPhases = (
+				B1478B92F9B67D2EF7CD015B /* Sources */,
+				A15100000000000000000014 /* Resources */,
+				4B4F4ED16AE10DE7EB94A72A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wearwise;
+			packageProductDependencies = (
+				256E4C513130C2199405E0F9 /* WearwiseCore */,
+			);
+			productName = Wearwise;
+			productReference = AE0BD1BE4EB61ABB375932FA /* Wearwise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FAADFB7AD953444D067A45A /* WearwiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EFC5E6F376FB20B3167107 /* Build configuration list for PBXNativeTarget "WearwiseUITests" */;
+			buildPhases = (
+				988C46FEBA80B4539F5A483D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E36857A428D27F620360DF2 /* PBXTargetDependency */,
+			);
+			name = WearwiseUITests;
+			packageProductDependencies = (
+			);
+			productName = WearwiseUITests;
+			productReference = 9547B6B35E6519D17AB98D82 /* WearwiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B2BD2266B77891F8F936F5DB /* WearwiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6021CEEF422065ED0750C1 /* Build configuration list for PBXNativeTarget "WearwiseTests" */;
+			buildPhases = (
+				A3B195B08262D89B670B7627 /* Sources */,
+				8A796443FFC0DF6BD950306C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E89DBB9399617C6E5D341B /* PBXTargetDependency */,
+			);
+			name = WearwiseTests;
+			packageProductDependencies = (
+			);
+			productName = WearwiseTests;
+			productReference = 4CE8AA9D21EA239BA8A5AA81 /* WearwiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5220D80570690391F1DC2EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FAADFB7AD953444D067A45A = {
+						TestTargetID = 18CE98E89AB69105527BCE69;
+					};
+				};
+			};
+			buildConfigurationList = 87CB15D01B29C39C287A5EAB /* Build configuration list for PBXProject "Wearwise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7C13542BF459274F2565BB69;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D3FD5A418C344D6916953552 /* XCLocalSwiftPackageReference "../packages/WearwiseCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5F8250A6FFAB0FFDF797CAF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE98E89AB69105527BCE69 /* Wearwise */,
+				B2BD2266B77891F8F936F5DB /* WearwiseTests */,
+				3FAADFB7AD953444D067A45A /* WearwiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15100000000000000000014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (A15100000000000000000013 /* Assets.xcassets in Resources */,);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A796443FFC0DF6BD950306C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1CB294624132D4BE94327E6 /* black-tshirt.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		988C46FEBA80B4539F5A483D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4BBC454D8F242620E2BA381 /* NavigationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B195B08262D89B670B7627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15200000000000000000011 /* NativeReviewTests.swift in Sources */,
+				AD1CEF01E6BD169070465FC0 /* ImageImportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1478B92F9B67D2EF7CD015B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15100000000000000000011 /* PreferencesStore.swift in Sources */,
+				A15100000000000000000012 /* PreferencesView.swift in Sources */,
+				A15000000000000000000011 /* Brand.swift in Sources */,
+				A15000000000000000000012 /* BrandStore.swift in Sources */,
+				A15000000000000000000013 /* BrandsView.swift in Sources */,
+				6DC11112A2B2DD7E0761F33F /* AssetStore.swift in Sources */,
+				A14C00000000000000000004 /* GarmentCollection.swift in Sources */,
+				A14C00000000000000000005 /* ShoppingStore.swift in Sources */,
+				A14C00000000000000000006 /* ShoppingView.swift in Sources */,
+				A14E00000000000000000003 /* JournalStore.swift in Sources */,
+				A14E00000000000000000002 /* CharacterView.swift in Sources */,
+				A14E00000000000000000001 /* GarmentImagePanel.swift in Sources */,
+				5DFFD7469371ED43645DC063 /* CompositionCanvas.swift in Sources */,
+				0883B1AE7A9024ADD7A3B38A /* FlatlayEditorView.swift in Sources */,
+				F983D5706370F4A6EFBE5AFB /* GarmentCategory.swift in Sources */,
+				D4AD2ACE632DB432E8BAC892 /* GarmentDetailView.swift in Sources */,
+				BDC490FC1224BC4507BD7833 /* GarmentEditView.swift in Sources */,
+				B9F35BBBE0DB0B4930F929CF /* GarmentStore.swift in Sources */,
+				6F3597DA378671E031B0C965 /* GarmentTagControls.swift in Sources */,
+				BFD4CE83C51E42B5BE030ED2 /* ImageImportService.swift in Sources */,
+				9E81AC902DE9C85DD5100463 /* ImportView.swift in Sources */,
+				A15300000000000000000001 /* PhotoLibraryView.swift in Sources */,
+				94C909C6EE162ECBAA0B54D5 /* Outfit.swift in Sources */,
+				57EA51630AC6183525809F10 /* OutfitStore.swift in Sources */,
+				8447EBB495BE2DECCA0B852B /* JournalView.swift in Sources */,
+				910351989B032B99197B91D4 /* Palette.swift in Sources */,
+				DC855BCBEB7DCB1F38D453BA /* PurchaseCalculatorView.swift in Sources */,
+				7F019F12C3E989EE76644FB9 /* PurchaseDraft.swift in Sources */,
+				EF2B88531F34853DFA3C6A0F /* WardrobeFilter.swift in Sources */,
+				786B740E88BEA8FE648C0262 /* WardrobeView.swift in Sources */,
+				E4B73BC5959F422D5F8CA255 /* WearwiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E89DBB9399617C6E5D341B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE98E89AB69105527BCE69 /* Wearwise */;
+			targetProxy = 4DC3E174DA110D66949984A6 /* PBXContainerItemProxy */;
+		};
+		5E36857A428D27F620360DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CE98E89AB69105527BCE69 /* Wearwise */;
+			targetProxy = 1267F10B0A75F7C51C8E0825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C9CEE12D3505DE393C7C7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wearwise;
+			};
+			name = Release;
+		};
+		0497D2A1CE2EA55C24D47BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0BDCC61376AFE1CB0988BDE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wearwise/Resources/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save outfit images you choose to add to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		468B0FF264CA446C0E7FCFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearwise.app/Wearwise";
+			};
+			name = Release;
+		};
+		9516DEB5ABB3356D9796D497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wearwise/Resources/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save outfit images you choose to add to your photo library.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBBE28CF1023A57CB43EBF1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wearwise.app/Wearwise";
+			};
+			name = Debug;
+		};
+		C0A2D7DED7D65A9588C8DDA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.carrol74.wearwise.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wearwise;
+			};
+			name = Debug;
+		};
+		DC469D0B3A668689C216E39C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B6021CEEF422065ED0750C1 /* Build configuration list for PBXNativeTarget "WearwiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBE28CF1023A57CB43EBF1C /* Debug */,
+				468B0FF264CA446C0E7FCFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		79A4B28CB84FFE676CFD62B1 /* Build configuration list for PBXNativeTarget "Wearwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9516DEB5ABB3356D9796D497 /* Debug */,
+				0BDCC61376AFE1CB0988BDE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84EFC5E6F376FB20B3167107 /* Build configuration list for PBXNativeTarget "WearwiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A2D7DED7D65A9588C8DDA2 /* Debug */,
+				00C9CEE12D3505DE393C7C7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87CB15D01B29C39C287A5EAB /* Build configuration list for PBXProject "Wearwise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0497D2A1CE2EA55C24D47BB3 /* Debug */,
+				DC469D0B3A668689C216E39C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D3FD5A418C344D6916953552 /* XCLocalSwiftPackageReference "../packages/WearwiseCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../packages/WearwiseCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		256E4C513130C2199405E0F9 /* WearwiseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WearwiseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5220D80570690391F1DC2EC5 /* Project object */;
+}
