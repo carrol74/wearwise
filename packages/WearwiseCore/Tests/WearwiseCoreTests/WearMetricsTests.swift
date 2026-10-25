@@ -77,13 +77,16 @@ struct WearMetricsTests {
         }
     }
 
-    @Test func purchaseProjectionDoesNotChangeActualUse() throws {
-        let actual = try WearMetrics.summary(
-            price: 100, openingWears: 0, openingIsEstimated: false, recordedWears: 0
+    @Test func additionalRecordedWearsReduceCost() throws {
+        let earlier = try WearMetrics.summary(
+            price: 100, openingWears: 0, openingIsEstimated: false, recordedWears: 20
         )
-        #expect(try WearMetrics.projectedCostPerWear(price: 100, estimatedFutureWears: 20) == 5)
-        #expect(actual.totalWears == 0)
-        #expect(actual.costPerWear == nil)
+        let later = try WearMetrics.summary(
+            price: 100, openingWears: 0, openingIsEstimated: false, recordedWears: 40
+        )
+        #expect(earlier.costPerWear == 5)
+        #expect(later.costPerWear == Decimal(string: "2.5")!)
+        #expect(later.totalWears == 40)
     }
 
     @Test func durationCountsCalendarDays() throws {
