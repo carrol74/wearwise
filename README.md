@@ -1,51 +1,76 @@
 # Wearwise
 
-Personal wardrobe records, flatlay outfits, OOTD journals, use-value evidence, purchase support, and brand inspiration.
+A native iOS wardrobe app for organizing clothes, composing outfits, recording what you wear, and considering purchases using cost per wear.
 
-## Project Status
+## Features
 
-The product and technical plans are drafts. All requested product areas remain included. The current technical recommendation is a native iOS app. The iOS application target has not yet been implemented or verified.
+- **Wardrobe:** import garment photos, remove backgrounds, review suggested colors, enter item details, and search or filter your collection.
+- **My character:** customize body proportions, hairstyles, facial features, and colors; insert the saved character into outfit collages.
+- **Outfits:** arrange garment and character layers, resize, rotate, reorder, undo changes, and share the finished image.
+- **Journal:** record worn pieces or a saved outfit, date, and notes. Wear history updates with journal edits while saved images retain their snapshots.
+- **Shopping:** keep potential purchases, website quotes, and purchase estimates separate from owned clothes. Transfer acquired items into the wardrobe explicitly.
+- **Brands:** keep sizing, materials, fit, price notes, and multiple inspiration photos together, with expandable owned-piece and inspiration sections.
 
-The repository contains a Foundation-only Swift calculation package and its real-value tests. All 13 tests pass with Swift 6.4 (Apple Swift version 6.4, swiftlang-6.4.0.34.1) and Xcode 27.0 (Build 27A266a) installed under /Applications/Xcode.app.
+Records and images stay in the app's local storage. No account, server, or API key is required. Light appearance uses white and navy; dark appearance uses black surfaces. Garment images retain white display backgrounds.
 
-## Planning Documents
+## Run the App
 
-- [Scope](devpost/scope.md): product purpose and complete requirement boundary.
-- [Product requirements](devpost/prd.md): behaviors and observable acceptance criteria.
-- [Technical specification](devpost/spec.md): proposed iOS architecture, data flow, and verification.
-- [Build checklist](devpost/checklist.md): ordered working behaviors and checks.
+Requirements: macOS, Xcode with Swift 6 and an iOS SDK, and an iPhone or simulator. The deployment target is iOS 17. Development verification used Xcode 27.0 and the iOS 18.4 simulator runtime.
 
-The learner profile and local decision-review notes are ignored by Git. Product and technical documents contain their own open questions so the published plan remains complete.
+1. Open `ios/Wearwise.xcodeproj` in Xcode.
+2. Select the **Wearwise** scheme and an installed iPhone simulator.
+3. Run the app. For a physical iPhone, select your own development team under Signing & Capabilities and choose the connected device.
+4. Add your own permitted standalone garment photos through Photos, Files, or image paste.
 
-## Calculation Package
+Background extraction requires physical-device verification. The tested iOS 18.4 simulator cannot execute one of Vision's required foreground-extraction stages. Photo selection, storage, composition, and the other interface flows can be exercised on the simulator.
 
-WearwiseCore provides:
+To build without configuring signing:
 
-- Cost per wear from known prices and positive wear counts.
-- Explicit unavailable results for unknown price or zero wears.
-- Separate opening wear estimates and recorded wear counts.
-- Comparison with personal cost references using unrounded values.
-- Separate future-wear purchase projections.
-- Exact-date duration and anniversary calculations using Calendar.
+```sh
+xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise \
+  -destination 'generic/platform=iOS Simulator' \
+  -derivedDataPath .build/ios CODE_SIGNING_ALLOWED=NO build
+```
 
-The package uses Swift 6 and Foundation. Tests use Swift Testing and cover decimal amounts, unknown values, negative input rejection, estimate labels, reference boundaries, and leap-year anniversaries.
+## Tests
 
-With a consistent Swift toolchain installed, run from the repository root:
+Run the independent calculation and composition tests:
 
 ```sh
 swift test --package-path packages/WearwiseCore
 ```
 
-## iOS Development Requirements
+Run native tests on a disposable simulator. UI tests create saved records and exercise system photo permissions. List destinations with `xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise -showdestinations`, then replace `SIMULATOR_UUID` below:
 
-The proposed application requires full Xcode, an iOS SDK, and an iOS 17-or-later target device. A physical iPhone is needed to validate actual image processing and personal-device installation. The complete run and signing instructions will be verified and added with the application target.
+```sh
+xcodebuild -project ios/Wearwise.xcodeproj -scheme Wearwise \
+  -destination 'platform=iOS Simulator,id=SIMULATOR_UUID' \
+  -skip-testing:WearwiseTests/ImageImportServiceTests/testRealGarmentProducesCutoutAndColors \
+  -parallel-testing-enabled NO CODE_SIGNING_ALLOWED=NO test
+```
 
-Current environment evidence: Swift 6.4 and Xcode 27.0 (Build 27A266a) are installed and active; the iOS simulator SDK is present. The core package tests pass.
+The excluded foreground-extraction test belongs on a physical iPhone. Optional local-material tests skip when no external materials have been staged. Use `python3 scripts/test-garment-materials.py --materials /absolute/path/to/images` to exercise those cases with your own files. `scripts/extract-garment-materials.swift` supports separate macOS Vision review, and `scripts/generate-app-icon.swift` reproduces the application icon.
 
-## Curriculum Setup
+Automated checks cover calculations, composition transforms, persistence, historical image retention, and native interface flows.
 
-Planning uses the [Devpost Learn Skill Pack](https://github.com/challengepost/learn-ai-basics). Locally installed skills are ignored by Git. skills-lock.json records their source and content hashes. Use the user's agents-kit workflow when managing local skills.
+## Remaining Acceptance Checks
 
-## Submission Preparation
+Full physical-device accessibility, difficult-image quality, minimum-OS acceptance, and capacity/performance measurements remain open release checks.
 
-The submitted repository must contain the planning documents, application source, permitted assets, installation instructions, and an open-source license. A public demonstration video must show the working app and remain shorter than three minutes under the supplied contest rules. License selection and public publication remain pending.
+## Project Layout
+
+| Path | Purpose |
+| --- | --- |
+| `ios/Wearwise/` | SwiftUI app, local stores, image processing, character renderer, and required artwork |
+| `ios/WearwiseTests/` | Native calculation, storage, rendering, and image tests with a licensed photograph |
+| `ios/WearwiseUITests/` | Native interface regression flows |
+| `packages/WearwiseCore/` | Foundation-only wear metrics, purchase estimates, and composition model |
+| `scripts/` | Reusable icon and image verification tools |
+
+## Hackathon Documents
+
+- [Scope](devpost/scope.md)
+- [Product requirements](devpost/prd.md)
+- [Technical specification](devpost/spec.md)
+
+Implementation and character artwork were developed with AI assistance. External material is attributed in [Third-party notices](THIRD_PARTY_NOTICES.md). The project source is available under the [MIT license](LICENSE); the bundled test photograph retains its separately stated license.
